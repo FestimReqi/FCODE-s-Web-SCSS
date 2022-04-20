@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCODE - Home Page</title>
+    <!--Links scss-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="API/waves/waves.min.css">
+    <!--particle-->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <link rel="stylesheet" href="css/particles.css">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <!--GASP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!--ico-->
+    <link rel="icon" type="icon/fcode_icon" href="design/icon/fcode_icon.ico">
+    <!--jquery mob-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="bg_01"></div>
+    <div class="bg_02"></div>
+    <button onclick="myTopFunction()" id="myIconScroll" title="goUP"><img src="design/icon/scroll_up.svg" alt="scroll_up"></button>
+
+    <div id="particles-js"></div>
+    <div class="home_page" >
+        <div class="container">
+            <div class="navbar">
+                <nav class="nav"   role="navigation">
+                    <div class="logo">
+                        <img src="design/icon/white.png" alt="Logo_FCODE">
+                    </div>
+                        <div class="list_items ">
+                               <ul>
+                                    <li><a class="button_nav" href="home.html">Home</a></li>
+                                    <li><a class="button_nav" href="#offerts">Services</a></li>
+                                    <li><a class="button_nav" href="#blog">Blog</a></li>
+                                    <li><a class="button_nav" href="#about">About</a></li>
+                               </ul>
+                        </div>
+                        <input type="checkbox" name="check" id="check">
+                    <label for="check"  class="checkbtn">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </label>
+                        
+                </nav>
+            </div>
+            
+            <div class="first_intro_text">
+                <h1>Welcome in <span class="mode">FCODE-Design</span> <br> We  are Life, <br>Passion, creativity and work <br> are  found in us <span class="mode">#FCODE</span></h1>
+                
+                <div class="enter_your_idea">
+                    <img src="design/wallpaper/fcodeidea.png" alt="idea" width="300px">
+                </div>
+            </div>
+          
+        </div>
+    </div>
+
+    <div class="specs_01">
+        <div class="container">
+            <div class="specs_01_02">
+                <div class="specs_all">
+                    <h1>Creator  FCODE</h1>
+                    <div class="specs_all_f1">
+                        <div class="space_010">
+                            <h2>Design <i class="fa-solid fa-pen-ruler"></i></h2> 
+                            <div class="num" data-count="150">350</div>
+                        </div>
+                        <div class="space_010">
+                            <h2>Web UX'Ui <i class="fa-solid fa-swatchbook"></i></h2> 
+                            <div class="num" data-count="30">50</div>
+                        </div>
+                        <div class="space_010">
+                            <h2>Website <i class="fa-solid fa-code"></i></h2> 
+                            <div class="num" data-count="41">51</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="icon_footer_for_web">
+                <div class="icon_float">
+                    <div class="contaienr">
+                        <img src="design/icon/icon_on_01.svg" alt="">
+                    </div>
+            </div>
+        </div>-->
+    </div>
+
+    <div class="barke">
+        <div class="container">
+            <hr>
+        </div>
+    </div>
+
+    <div class="Offerts" id="offerts">
+        <div class="container">
+            <div class="offerts_box">
+                <div class="box_01">
+                    <h1>Web Design</h1>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Number page +2</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Design for Social Media</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Responsive Design</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Navigation</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <button type="button">Check <i class="fa-solid fa-check-double"></i></button>
+                </div>
+                <div class="box_01">
+                    <h1>Web Design</h1>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Number page +5</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>SEO</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Responsive Design</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Navigation</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <button type="button">Check <i class="fa-solid fa-check-double"></i></button>
+                </div>
+                <div class="box_01">
+                    <h1>Web Design</h1>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Number page +10</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>SEO</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Responsive Design</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="box_010">
+                        <p>Navigation</p>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <button type="button">Check <i class="fa-solid fa-check-double"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="packages">
+        <div class="container" id="blog">
+            <h1>Popular Packages That Agencies</h1>
+            <div class="packages_all">
+                <div class="packages_01">
+                    <img src="design/icon/click.svg" alt="Click">
+                    <h2>PPC</h2>
+                    <p>Google AdWords</p>
+                    <p>Facebook Ads</p>
+                    <p>Linkedin Ads</p>
+                </div>
+                <div class="packages_01">
+                    <img src="design/icon/ux.svg" alt="Click">
+                    <h2>UX / UI</h2>
+                    <p> Web Page</p>
+                    <p>Temple</p>
+                </div>
+                <div class="packages_01">
+                    <img src="design/icon/seo.svg" alt="Click">
+                    <h2>SEO</h2>
+                    <p>Expert SEO</p>
+                </div>
+                <div class="packages_01">
+                    <img src="design/icon/coin.svg" alt="Click">
+                    <h2>Avarage</h2>
+                    <p>We Promis you</p>
+                </div>
+            </div>
+        </div>
+        <div class="icon_footer_for_web_left">
+            <div class="icon_float_left">
+                <div class="container">
+                    <img src="design/icon/icon_on_01.svg" alt="alt">
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+    
+    
+    <div class="back_footer">
+        <div class="container">
+            <div class="back_footer_all">
+                <div class="back_footer_all_01">
+                    <h1>DWS Is Designed For Ambitious Agencies.</h1>
+                    <h3>We can do it.</h3>
+                    <button type="button">Get Instant Quotes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_for_all" id="about">
+            <div class="container">
+                <div class="footer_all">
+                    <div class="footer_01_box">
+                        <img src="design/icon/black.png" alt="FCODE" >
+                        <div class="text_footer">
+                            <p>has solutions to help your business grow online. Join the league of 58 smart agencies that outsource to us.</p>
+                            <p>You delegate. We deliver.</p>
+                            <a href="mailto:mail@fcode.com">mail@fcode.com</a>
+                        </div>
+                        <div class="icon_footer">
+                            <a href="https://www.facebook.com/FCODEDesign2020" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/fcodedesign" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/festim_reqi" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer_02_box">
+                        <h2><button onclick="buttonShow03()"> <i class="fa-solid fa-keyboard"></i> Service</button></h2>
+                        <div class="links_service_footer" id="showhidemode">
+                                <li><a href="#">Blogger Outsearch</a></li>
+                                <li><a href="#">PPC Adversting</a></li>
+                                <li><a href="#">Outsourcing</a></li>
+                                <li><a href="#">White-Labeled</a></li>
+                                <li><a href="#">CRM</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">About Us</a></li>
+                        </div>
+                    </div>
+                    <div class="footer_office">
+                        <h2><button onclick="buttonShow02()"><i class="fa-solid fa-location-dot"></i> Republic of Kosovo</button></h2>
+                        <div class="text_footer_office" id="modeshow">
+                            <p>Adem Jashari, Prishtina, XK 71510</p>
+                            <p>Phone <a href="tel:+38345642789">+383 45 642 789</a></p>
+                        </div>
+                    </div>
+                    <div class="footer_office_explorer">
+                        <h2><button onclick="buttonShow01()"><i class="fa-solid fa-earth-americas"></i> Explorer</button></h2>
+                        <div id="hideshow01">
+                                
+                                    <li><a href="#">Home</a></li>
+                                
+                                
+                                    <li><a href="#">About</a></li>
+                                
+                                    <li><a href="#">Blog</a></li>
+                                
+                        </div>
+                    </div>
+                    <div class="footer_legal">
+                        <h1><button onclick="buttonHideShow()"><i class="fa-solid fa-circle-check"></i> Legal</button></h1>
+                        <div id="hideshow">
+                            <li><a>Terms</a></li>
+                            <li><a>Privacy</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_fcode">
+            <p>Copyright © 2022 FCODE Design.All Rights Reserved. </p>
+        </div>
+    </footer>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+   
+
+    <script src="js/navbut.js"></script>
+    <script src="js/particles/particles.js"></script>
+    <script src="js/particles/app.js"></script>
+    <script src="js/num.js"></script>
+    <script src="js/intro.js"></script>
+    <script src="js/navbar_scroll.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/firstpage.js"></script>
+    <script src="js/buttonhideshow.js"></script>
+    <script src="js/scrollOnTop.js"></script>
+
+</body>
+</html>
